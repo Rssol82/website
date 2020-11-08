@@ -1,0 +1,163 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background: url(Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: darkblue;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: floralwhite;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+.active, .menu-bar ul li a:hover
+{
+    background: blue;
+    border-radius: 3px;
+}
+img
+{
+    border-radius: 725px;
+    width: 250px;
+    margin-left: 510px;
+    margin-top: 50px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.connect-box
+{
+    background: #fff;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    top: 35%;
+    left: 36%;
+    border-radius: 15px;
+}
+.connect-box .fa
+{
+    margin-right: 8px;
+    text-decoration: none;
+}
+.connect-box ul li a
+{
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+    
+}
+.connect-box h1
+{
+    font-size: 15px;
+}
+.connect-box h3
+{
+    font-size: 10px;
+    color: lightslategray;
+    margin: 10px;
+}
+.connect-box ul li .a
+{
+    color: deeppink;
+}
+.connect-box ul li .a2
+{
+    color: blue;
+}
+.connect-box ul li a:hover
+{
+    background: skyblue;
+}
+.connect-box h2
+{
+    font-size: 10px;
+    color: lightslategray;
+    margin: 10px;
+}
+.warpper h1
+{
+    font-weight: lighter;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+.warpper p
+{
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 0;
+}
+.media
+{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-53%, -50%);
+}
+.media li
+{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+.media li:hover{
+    color: #292929;
+    border: 1px solid #292929;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
