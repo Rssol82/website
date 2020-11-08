@@ -1,0 +1,95 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background: url(Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: darkblue;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: floralwhite;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+.active, .menu-bar ul li a:hover
+{
+    background: blue;
+    border-radius: 3px;
+}
+img
+{
+    width: 250px;
+    margin-left: 510px;
+    margin-top: 50px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.img-group
+{
+    background-color: aqua;
+    height: 300vh;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 35px;
+    margin-left: 300px
+}
+button 
+{
+    background: none;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    width: 220px;
+    color: skyblue;
+    height: 30px;
+    transition: 0.5s;
+    margin-top: 90px;
+        margin-left: 520px;
+}
+button:hover
+{
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
